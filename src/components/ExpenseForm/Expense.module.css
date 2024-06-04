@@ -1,0 +1,77 @@
+.heading{
+    font-weight:bold;
+    margin-left:5%
+}
+.input {
+    width:40%;
+    border-radius:10px;
+    height:2em;
+}
+.input1 {
+    width:40%;
+    border-radius:10px;
+    height:2.5em;
+}
+.submitBtn {
+    width:41%;
+    height:2rem;
+    border-radius:10px;
+    color:white;
+    background-color:orange;
+}
+.cancelBtn {
+    width:30%;
+    margin-right:10%;
+    height:2rem;
+    border-radius:10px;
+}
+
+@media (max-width: 575px) {
+    .heading {
+        font-size: large;
+    }
+    .cancelBtn,.submitBtn,.input {
+        font-size: 0.5em;
+        height: 3em;
+    }
+    .input1{
+        font-size: 0.5em;
+        height: 4em;
+    }
+    
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .cancelBtn,.submitBtn,.input,.input1 {
+        font-size: 0.8em;
+    }
+    .heading {
+        font-size: large;
+    }
+    .input1 {
+        height: 2.7em;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .cancelBtn,.submitBtn,.input,.input1 {
+        font-size: 1em;
+    }
+    .heading {
+        font-size: large;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .cancelBtn,.submitBtn,.input,.input1 {
+        font-size: 1.05em;
+    }
+    .heading {
+        font-size: large;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .cancelBtn,.submitBtn,.input,.input1 {
+        font-size: 1.1em;
+    }
+    .heading {
+        font-size: large;
+    }
+}

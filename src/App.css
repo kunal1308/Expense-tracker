@@ -1,38 +1,118 @@
 .App {
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.801);
+  height: 100%;
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.heading {
+  position:relative;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%,-50%);
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(227, 223, 223, 0.5);
+  z-index: 1000;
+  backdrop-filter: blur(1px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+@media screen and (max-width: 320px) {
+  .App{
+    height: auto;
+    width: 100% ;
+    }
+    .heading{
+      right: 33%;
+      font-size: small;
+    }
+}
+@media screen and (min-width: 321px) and (max-width:376px) {
+  .App{
+    height: auto;
+    width: 100% ;
+    }
+    .heading{
+      font-size: small;
+      right: 34%;
+    }
+}
+@media screen and (min-width:376px) and (max-width:426px) {
+  .App{
+    height: auto;
+    width: 100% ;
+    }
+    .heading{
+      right: 34%;
+      font-size: medium;
+    }
+}
+
+@media screen and (min-width:427px) and (max-width: 575px) {
+  .App{
+  height: auto;
+  width: 100% ;
   }
-  to {
-    transform: rotate(360deg);
+  .heading{
+    right: 37%;
+    font-size: medium;
+  }
+}
+@media screen and (min-width: 575px) and (max-width: 766px) {
+  .App{
+  height: auto;
+  width: 100%;
+  }
+  .heading{
+    right: 36%;
+    font-size: medium;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+ .App{
+  height: auto;
+  width: 100%;
+ }
+ .heading{
+  right: 39%;
+  font-size: medium;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .App{
+    height: auto;
+    width: 100%;
+  }
+  .heading{
+    right: 41%;
+    font-size: large;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .App{
+    height: auto;
+    width: 100%;
+  }
+  .heading{
+    right: 41%;
+    font-size: large;
   }
 }

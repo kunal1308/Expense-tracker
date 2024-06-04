@@ -1,0 +1,189 @@
+.container {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #696969;
+  width: 95%;
+  height: 35vh;
+  border-radius: 10px;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 85%;
+  width: 65%;
+}
+.wallet {
+  padding: 1em;
+  width: 40%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(169, 169, 169, 0.9);
+  border-radius: 10px;
+  align-items: center;
+}
+.expense {
+    padding: 1em;
+    width: 40%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(169, 169, 169, 0.9);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.typographyLeft {
+  margin-bottom: 1em;
+  font-size: 2em;
+  color: white;
+}
+.valueLeft {
+  color: green;
+}
+.transactionHead {
+  color:white;
+  align-self: flex-start;
+}
+
+
+@media screen and (max-width:320px) {
+  .typographyLeft{
+    font-size:medium;
+  }
+  .addBtn {
+    font-size: 0.6em;
+    color: white;
+    border-radius: 10px;
+  }
+  .wallet, .expense {
+    width: 27%;
+  }
+  .transactionHead {
+    font-size: small;
+  }
+}
+@media screen and (min-width:321px) and (max-width:376px) {
+  .typographyLeft{
+    font-size:small;
+  }
+  .addBtn {
+    font-size: 0.65em;
+    color: white;
+    border-radius: 10px;
+  }
+  .wallet, .expense {
+    width: 29%;
+  }
+  .transactionHead {
+    font-size: small;
+  }
+}
+@media screen and (min-width:376px) and (max-width:426px) {
+  .typographyLeft{
+    font-size:medium;
+  }
+  .addBtn {
+    font-size: 0.7em;
+    color: white;
+    border-radius: 10px;
+  }
+  .wallet, .expense {
+    width: 30%;
+  }
+  .transactionHead {
+    font-size: medium;
+  }
+}
+
+@media screen and (min-width:426px) and (max-width: 575px) {
+  .typographyLeft{
+    font-size:medium;
+  }
+  .addBtn {
+    font-size: 0.7em;
+    height: 2.5em;
+    color: white;
+    border-radius: 10px;
+  }
+  .wallet, .expense {
+    width: 35%;
+  }
+  .transactionHead {
+    font-size: medium;
+  }
+  }
+  @media screen and (min-width: 575px) and (max-width: 768px) {
+    .typographyLeft{
+      font-size:medium;
+    }
+    .addBtn {
+      font-size: 0.8em;
+      height: 2.5em;
+      color: white;
+      border-radius: 10px;
+    }
+    .wallet, .expense {
+      width: 35%;
+    }
+    .transactionHead {
+      font-size: large;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .typographyLeft{
+      font-size:large;
+    }
+    .addBtn {
+      font-size: 0.8em;
+      height: 2.5em;
+      color: white;
+      border-radius: 10px;
+    }
+    .wallet, .expense {
+      width: 38%;
+    }
+    .transactionHead {
+      font-size: large;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .typographyLeft{
+      font-size:large;
+    }
+    .addBtn {
+      font-size: 0.9em;
+      height: 2.5em;
+      color: white;
+      border-radius: 10px;
+    }
+    .wallet, .expense {
+      width: 40%;
+    }
+    .transactionHead {
+      font-size: large;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .typographyLeft{
+      font-size:large;
+    }
+    .addBtn {
+      font-size: 1em;
+      height: 2.5em;
+      color: white;
+      border-radius: 10px;
+    }
+    .wallet, .expense {
+      width: 42%;
+    }
+    .transactionHead {
+      font-size: large
+    }
+  }

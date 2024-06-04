@@ -1,3 +1,25 @@
+# Expense Tracker
+
+This is a simple expense tracker application built with React. The application allows users to track their expenses and incomes, view a breakdown of expenses by category in a pie chart, and manage their transactions with options to add, edit, and delete;
+
+## Features
+
+- Add, edit, and delete expenses and income
+- View expenses breakdown by category in a pie chart
+- Track wallet balance
+- Responsive design
+- Blurred background for modals
+- Pagination for transactions
+
+## Technologies Used
+
+- React
+- React Modal
+- Recharts
+- Material-UI
+- Snackbar for notifications
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
